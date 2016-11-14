@@ -1,0 +1,33 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.container{
+	position:relative;
+	width:800px;
+	height:700px;
+	line-height:50px;
+	text-align: center;
+	font-weight:bold;
+	margin:10px auto;
+	background-image: url(../img/beginBg.jpg);
+}
+#start1,#start2,#restart{
+	position:absolute;
+	width:100px;
+	height:50px;
+	border-radius: 15px;
+	background-color: deepskyblue;
+	color:wheat;
+	left:350px;
+}
+#start1{
+	bottom:50%;
+}
+#start2{
+	bottom:40%;
+}
+#restart{
+	bottom:45%;
+	display: none;
+}
